@@ -10,8 +10,21 @@ Git练习和代码审查
 
 ===========
 
-### fetch命令
+### 更新远程仓库到本地文件夹
+    $ git clone https://github.com/strivek/training.git
+### 查看远程库
+查看全部远程仓库名称
+    $ git remote
+查看远程仓库地址
+    $ git remote -v 
+    
+===========
 
+### 从远程数据库获取数据
+
+#### fetch 命令
+*fecth只是将远程库的书库下载到本地仓库，并不会自动合并到当前的分支，需要手工合并*
+    
     $ git fetch <远程主机名>
     
 更新远程主机的更新,默认取回所有分支（branch）的更新
@@ -29,6 +42,15 @@ Git练习和代码审查
     $ git branch -a
     * master
       remotes/origin/master
+      
+#### pull 命令
+
+获取并且合并到当前工作分支
+ks
+    $ git pull origin master
+    
+
+
     
 
     
