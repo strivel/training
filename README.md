@@ -52,9 +52,10 @@ ks
 
 
 2014.07.10 15:25
-更新项目，更新Fork
-=======
-###利用GitHub进行pull request 测试
+
+####更新项目，更新Fork
+
+> 利用GitHub进行pull request 测试
 
 > 合并新的更新
 
