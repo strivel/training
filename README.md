@@ -1,6 +1,7 @@
 training
 ========
 
+
 ####dev开发分支
 
 
@@ -45,4 +46,7 @@ training
 ks
     $ git pull origin master
     
+
+=======
+测试dev合并分支的方法
 
