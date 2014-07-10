@@ -1,6 +1,4 @@
 training
 ========
 
-####dev开发分支
-
-同步master数据
+测试dev合并分支的方法
