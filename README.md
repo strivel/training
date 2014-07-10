@@ -1,8 +1,7 @@
 training
 ========
 
-Git练习和代码审查
-
+####dev开发分支
 
 
 ===========
@@ -46,10 +45,4 @@ Git练习和代码审查
 ks
     $ git pull origin master
     
-
-
-    
-
-    
-
 
