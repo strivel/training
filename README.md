@@ -1,12 +1,6 @@
 training
 ========
 
-
-####dev开发分支
-
-
-===========
-
 ### 更新远程仓库到本地文件夹
     $ git clone https://github.com/strivek/training.git
 ### 查看远程库
