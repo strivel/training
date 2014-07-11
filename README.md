@@ -43,10 +43,20 @@ ks
     $ git pull origin master
     
 
-======
-11:46
+### 正常工作流
 
-###利用Github客户端进行Git管理，分支管理
+	$ git add  file1 file2 file3
+更新列举出的文件更改
 
-> 单纯的命令行非常简洁，但是对于一部分不擅长命令行的同行来说，学习成本相对高昂
+	$ git add  .
+更新全部文件夹下文件的更改
 
+
+
+#### 查看更改
+
+	$ git diff -cached
+查看已经存到缓存区内的更改（已经add）
+	
+	$ git diff 
+查看尚未存到缓存区内的更改 (尚未add)
