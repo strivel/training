@@ -12,5 +12,14 @@
 7. issues 中提到的问题，如分派给自己完成，需认真完成，直至问题close
 
 
-##Git 常用命令 
+##Git 常用命令
+    git clone [远程库地址]
 
+克隆远程库到本地
+
+    git remote 
+    git remote -v
+
+`remote` 查看已经添加的远程库有哪些，一般至少有两个一个folk的自己的库用来推送更新，一个是共享远程库，用来推送`pull request`
+
+`remote -v` 可以查看更详细的远程库信息，包含了其库所在的URL
