@@ -20,6 +20,7 @@
     git remote 
     git remote -v
 
-`remote` 查看已经添加的远程库有哪些，一般至少有两个一个folk的自己的库用来推送更新，一个是共享远程库，用来推送`pull request`
+`remote` 查看现有远程库有哪些，
+日常工作,一个是共享远程库，用来`pull`，一个自己folk的远程库，用来推送`pull request`
 
 `remote -v` 可以查看更详细的远程库信息，包含了其库所在的URL
