@@ -45,8 +45,11 @@
     git branch [分知名]
     git checkout -b [分支名]
 `git branch `查看分支
+
 `git branch `删除分支
+
 `git branch [分支名]` 新建分支
+
 `git branch -b [分支名]` 新建一个分支并且切换到新建的分支，对于已有分支无效
 
 
