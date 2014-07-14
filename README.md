@@ -34,6 +34,31 @@
 
 `remote add` 添加远程库地址
 
+### 更新自己folk的项目从主项目
+
+    git pull [主项目远程库的名字] [主项目远程库分支]
+
+### 查看分支
+
+    git branch 
+    git branch -d
+    git branch [分知名]
+    git checkout -b [分支名]
+`git branch `查看分支
+`git branch `删除分支
+`git branch [分支名]` 新建分支
+`git branch -b [分支名]` 新建一个分支并且切换到新建的分支，对于已有分支无效
+
+
+
+
+
+
+
+
+
+
+
 
 
 
