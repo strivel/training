@@ -1,62 +1,61 @@
-training
-========
+#工作规范与参考文档
+==================
 
-测试~~~~~~
+##Git 日常工作流程
 
-### 更新远程仓库到本地文件夹
-    $ git clone https://github.com/strivek/training.git
-### 查看远程库
-查看全部远程仓库名称
-    $ git remote
-查看远程仓库地址
-    $ git remote -v 
-    
-===========
-
-### 从远程数据库获取数据
-
-#### fetch 命令
-*fecth只是将远程库的书库下载到本地仓库，并不会自动合并到当前的分支，需要手工合并*
-    
-    $ git fetch <远程主机名>
-    
-更新远程主机的更新,默认取回所有分支（branch）的更新
-
-    $ git fetch <远程主机名> <分支名>
-
-取回指定分支的更新,fecth并不进行更新，只是从远程获取更新到本地，所有取回的更新需要用
-
-> "远程主机名/分支名"的形式读取
->  "git branch命令-r选项,可以用来查看远程分支,-a选项查看所有分支"
+1. 项目开始
+2. folk项目到自己github仓库
+3. 建立自己的本地分支，进行开发
+4. 每完成一部分内容后，commit到远程自己的仓库，
+5. 每日工作完成后，pull request到共享主仓库
+6. 每日注意查收邮件解决pull request 后，code review后提出的问题
+7. issues 中提到的问题，如分派给自己完成，需认真完成，直至问题close
 
 
-    $ git branch -r
-    origin/master
-    $ git branch -a
-    * master
-      remotes/origin/master
-      
-#### pull 命令
+##Git 常用命令
 
-获取并且合并到当前工作分支
-ks
-    $ git pull origin master
-    
+### 克隆远程库
 
-======
-11:46
+    git clone [远程库地址]
 
-###利用Github客户端进行Git管理，分支管理
-
-> 单纯的命令行非常简洁，但是对于一部分不擅长命令行的同行来说，学习成本相对高昂
+克隆远程库到本地
 
 
-2014.07.10 15:25
-更新项目，更新Fork
+### 查看已添加的远程库信息
+    git remote 
+    git remote -v
 
-###利用GitHub进行pull request 测试
+`remote` 查看现有远程库有哪些，
+日常工作,一个是共享远程库，用来`pull`，一个自己folk的远程库，用来推送`pull request`
 
-> 合并新的更新
+`remote -v` 可以查看更详细的远程库信息，包含了其库所在的URL
+
+    git remote add [远程库地址]
+
+`remote add` 添加远程库地址
+
+### 更新自己folk的项目从主项目
+
+    git pull [主项目远程库的名字] [主项目远程库分支]
+
+### 查看分支
+
+    git branch 
+    git branch -d
+    git branch [分知名]
+    git checkout -b [分支名]
+`git branch `查看分支
+
+`git branch `删除分支
+
+`git branch [分支名]` 新建分支
+
+`git branch -b [分支名]` 新建一个分支并且切换到新建的分支，对于已有分支无效
+
+![img_20140703_114401](https://cloud.githubusercontent.com/assets/5283656/3567118/9bb67aba-0b0f-11e4-9cf3-370fb123df34.jpg)
+
+
+
 
 
 
