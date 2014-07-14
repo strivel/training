@@ -24,13 +24,16 @@
 ### 查看已添加的远程库信息
     git remote 
     git remote -v
-    git remote add [远程库地址]
 
 `remote` 查看现有远程库有哪些，
 日常工作,一个是共享远程库，用来`pull`，一个自己folk的远程库，用来推送`pull request`
 
 `remote -v` 可以查看更详细的远程库信息，包含了其库所在的URL
 
-`remote add` 添加远程库
+    git remote add [远程库地址]
+
+`remote add` 添加远程库地址
+
+
 
 
